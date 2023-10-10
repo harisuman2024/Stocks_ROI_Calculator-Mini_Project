@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stocks ROI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Stocks ROI Calculator</h1>
+        <div class="input-container">
+            <label for="totalInvestment">Total Investment:</label>
+            <input type="number" id="totalInvestment" placeholder="Enter total investment...">
+        </div>
+        <div class="input-container">
+            <label for="profit">Profit:</label>
+            <input type="number" id="profit" placeholder="Enter profit...">
+        </div>
+        <button class="calculate-button" onclick="calculateROI()">Calculate ROI</button>
+        <div class="result-container">
+            <p id="roiResult"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
